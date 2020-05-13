@@ -45,7 +45,7 @@
                     :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
                       class="font-weight-light"
                     >
-                      WELCOME TO
+                      BLOG PERSONAL
                     </span>
 
                     <br>
@@ -54,7 +54,7 @@
                       :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
                       class="font-weight-black"
                     >
-                      VUETIFY
+                      JSDNLB
                     </span>
 
                   </v-col>
@@ -78,7 +78,7 @@
         <div class="py-12"></div>
 
         <v-container class="text-center">
-          <h2 class="display-2 font-weight-bold mb-3">ABOUT ME</h2>
+          <h2 class="display-2 font-weight-bold mb-3">¿QUIEN SOY?</h2>
 
           <v-responsive
             class="mx-auto mb-8"
@@ -93,26 +93,26 @@
             class="mx-auto title font-weight-light mb-8"
             max-width="720"
           >
-            Vuetify is the #1 component library for Vue.js and has been in active development since 2016. The goal of the project is to provide users with everything that is needed to build rich and engaging web applications using the Material Design specification. It accomplishes that with a consistent update cycle, Long-term Support (LTS) for previous versions, responsive community engagement, a vast ecosystem of resources and a dedication to quality components.
+            Últimamente tengo más tiempo libre y no quiero desperdiciarlo entonces trato de usarlo en algo que sea algo productivo, hoy simplemente completando estos parrafos. No hay mucho por decir, mi banda preferida es Pink Floyd, me gustan las pastas pero no la comida italiana. Me gusta ver el crecimiento de las plantulas, los inventos a pequeña escala y todo tipo de ideas innovadores y hasta innecesaria.
           </v-responsive>
 
           <v-avatar
             class="elevation-12 mb-12"
             size="128"
           >
-            <v-img src="https://cdn.vuetifyjs.com/images/john.png"></v-img>
+            <v-img src="https://avatars1.githubusercontent.com/u/17171887?s=400&u=ce41602e521530094615d316e263dd2c2598068c&v=4"></v-img>
           </v-avatar>
 
           <div></div>
 
           <v-btn
             color="grey"
-            href="https://vuetifyjs.com"
+            href="https://github.com/jsdnlb"
             outlined
             large
           >
             <span class="grey--text text--darken-1 font-weight-bold">
-              Vuetify Documentation
+              Sígueme en github.
             </span>
           </v-btn>
         </v-container>
@@ -264,78 +264,7 @@
         <div class="py-12"></div>
       </section>
 
-      <v-sheet
-        id="contact"
-        color="#333333"
-        dark
-        tag="section"
-        tile
-      >
-        <div class="py-12"></div>
-
-        <v-container>
-          <h2 class="display-2 font-weight-bold mb-3 text-uppercase text-center">Contact Me</h2>
-
-          <v-responsive
-            class="mx-auto mb-12"
-            width="56"
-          >
-            <v-divider class="mb-1"></v-divider>
-
-            <v-divider></v-divider>
-          </v-responsive>
-
-          <v-theme-provider light>
-            <v-row>
-              <v-col cols="12">
-                <v-text-field
-                  flat
-                  label="Name*"
-                  solo
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="12">
-                <v-text-field
-                  flat
-                  label="Email*"
-                  solo
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="12">
-                <v-text-field
-                  flat
-                  label="Subject*"
-                  solo
-                ></v-text-field>
-              </v-col>
-
-              <v-col cols="12">
-                <v-textarea
-                  flat
-                  label="Message*"
-                  solo
-                ></v-textarea>
-              </v-col>
-
-              <v-col
-                class="mx-auto"
-                cols="auto"
-              >
-                <v-btn
-                  color="accent"
-                  x-large
-                >
-                  Submit
-                </v-btn>
-              </v-col>
-            </v-row>
-          </v-theme-provider>
-        </v-container>
-
-        <div class="py-12"></div>
-      </v-sheet>
+    
     </v-content>
 
     <v-footer
@@ -344,7 +273,7 @@
       height="100"
     >
       <div class="title font-weight-light grey--text text--lighten-1 text-center">
-        &copy; {{ (new Date()).getFullYear() }} — Vuetify, LLC — Made with 💜 by John Leider
+        &copy; {{ (new Date()).getFullYear() }} — Personal blog — Made with 💜 by Daniel B. 
       </div>
     </v-footer>
   </v-app>
